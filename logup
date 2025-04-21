@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <label for="">mật khẩu cũ</label><br>
+    <input type="password" id="oldPassword"><br><br>
+    <label for="">nhập mật khẩu mới </label><br>
+    <input type="password" id="newPassword"><br><br>
+    <button onclick="updatepass()">đổi mật khẩu </button>
+    <p id="errorMessage" style="display: none; color: red;"></p>
+</body>
+
+</html>
